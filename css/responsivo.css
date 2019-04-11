@@ -1,0 +1,294 @@
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+/*Introdução home*/
+
+.introducao{
+	padding-left:0px;
+}
+
+/*footer Redes Sociais*/
+
+.footer-redes ul li a{
+	border:3px solid #9c0601;
+	display: block;
+	padding: 6px;
+}
+
+.footer-redes ul li a img{
+	width: 26px;
+	height: 26px;
+}
+
+
+
+/*Page Laila Barreto*/
+
+.interna-laila{
+
+	background: url("../img/bg-laila-barreto-resp.jpg") no-repeat center;
+	background-size: cover;
+
+
+} 
+
+.sobre img{
+	margin-top: -550px;
+
+}
+
+.sobre p{
+	padding-left: 0;
+	padding-right: 30px;
+	text-align: left;
+}
+
+/*Serviços*/
+.nutri-clinica img, .emagrecimento img{
+margin-top: -250px;
+
+}
+
+.nutri-clinica, .reeducacao-alimentar, .emagrecimento img{
+	padding-left: 10px;
+}
+.nutri-clinica p, .emagrecimento p{
+	padding-left: 0;
+}
+/*Contato*/
+
+.interna-contato h1{
+ margin: 0 290px;
+}
+
+
+}
+
+/*Estilo para Smartphones*/
+@media only screen and (max-width: 767px){
+
+	/*footer Redes Sociais*/
+
+	.footer-redes ul li a, .agende-dados ul li a {
+		border:3px solid #9c0601;
+		display: block;
+		padding: 6px;
+	}
+
+	.footer-redes ul li a img, .agende-dados ul li a img{
+		width: 26px;
+		height: 26px;
+	}
+
+
+
+
+
+	.taggle{
+		margin: 0;
+		padding: 0;
+		display: block;
+		width: 100%;
+		height: 10px;
+
+	}
+
+
+	.header_menu ul li a:hover{
+		color: #9c0601; /*vermelho escuro*/
+		border-bottom: none;
+  }
+
+
+	.header img{
+		margin: 0;
+ }
+
+	.header_menu ul li a.menu-ativo{
+		color: #9c0601;
+		border-bottom: none;
+  }
+
+	.taggle i{
+		cursor: pointer;
+		text-align: right;
+		position: absolute;
+		top: 25px;
+
+	}
+
+
+	.header{
+		position: relative;
+		padding:20px 0 0px 0;
+
+
+		
+	}
+
+	.header_menu ul{
+		width: 100%;
+		display: none;
+	
+	}
+
+  .header_menu ul li{
+	
+		display: block;
+		text-align: center;
+	}
+	.header_menu ul.active{
+		display: block;
+	}
+
+
+
+	/*Introdução home*/
+
+	.introducao{
+		background: url("../img/bg-home-2.jpg") no-repeat center;
+		background-size: cover;
+	}
+
+	.introducao{
+		padding-left: 0;
+		margin-top: 10px;
+	}
+
+
+	.introducao h1{
+ 
+ 		font-size: 5vw;
+		
+
+	}
+
+	.introducao p{
+
+		padding: 0px;
+}
+
+	/*serviços*/
+.nutri-clinica, .reeducacao-alimentar, .emagrecimento img{
+	padding-left: 0px;
+}
+
+	.servicos{
+		padding-top: 15px;
+		padding-bottom: 30px;
+
+	}
+
+	.servicos-lista li img{
+	margin: 0 auto;
+	padding:10px 0;
+	margin-top: 0;
+	width: 40px;
+	height: 65px;
+
+}
+
+.servicos-lista li{
+
+	display: block;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.servicos-lista li h3{
+	
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 5px;
+	
+}
+
+.call {
+	margin-top: 0;
+	padding-top: 0px;
+	
+}
+
+/*Comentários Clientes*/
+
+
+.comentario-clientes{
+	padding: 40px 0;
+}
+.quote_clientes p{
+	font-size: 14px;
+}
+
+/*Siga Insta*/
+
+.siga-insta img{
+	margin-left: 25px;
+
+}
+ 
+ /*Pagina Laila Barreto*/
+ .interna-laila{
+
+	background: url("../img/bg-laila-2.jpg") no-repeat center;
+	background-size: cover;
+} 
+.introducao-interna{
+	margin-top: 10px;
+}
+
+ .interna-laila h1 {
+	font-size: 5vw;
+	font-weight: bold;
+	letter-spacing: .1em;
+	margin-left: 600px;
+	margin-right: 0;
+
+}
+
+.introducao-interna h1{
+	font-size: 5vw;
+}
+
+.sobre img{
+	padding-left: 20px;
+
+}
+
+/*Pagina serviços*/
+
+
+
+
+ .emagrecimento img{
+	padding-left: 19px;
+
+}
+
+.nutri-clinica img{
+	padding-left: 19px;
+}
+
+.reeducacao-alimentar img{
+	padding-left: 20px;
+
+}
+
+/*Pagina contatos*/
+.interna-contato {
+
+	background: url("../img/bg-contato-2.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.interna-contato h1 {
+	font-size: 24px;
+	padding: 5px 5px;
+	margin-left: 50px;
+	max-width: 200px;
+
+}
+
+
+
+
+}
+
